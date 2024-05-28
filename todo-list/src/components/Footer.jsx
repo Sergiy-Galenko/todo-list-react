@@ -2,9 +2,10 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
+  const data = new Date();
   return (
     <footer className="footer">
-      <p>&copy; 2024 Todo List. All rights reserved.</p>
+      <p>&copy; {data.getFullYear()} Todo List. All rights reserved.</p>
     </footer>
   );
 };
