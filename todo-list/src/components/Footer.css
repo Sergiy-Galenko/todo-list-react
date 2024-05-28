@@ -1,0 +1,12 @@
+/* Footer.css */
+
+.footer {
+    background-color: var(--footer-background);
+    padding: 10px;
+    color: var(--footer-text);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  

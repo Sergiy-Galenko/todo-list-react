@@ -1,0 +1,15 @@
+/* dark.css */
+
+:root {
+  --background-color: #333;
+  --text-color: #f0f0f0;
+  --header-background: #1b1b1b;
+  --header-text: #61dafb;
+  --footer-background: #1b1b1b;
+  --footer-text: #61dafb;
+  --button-background: #21a1f1;
+  --button-text: white;
+  --button-hover: #61dafb;
+  --task-background: #444;
+  --task-border: #555;
+}

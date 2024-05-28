@@ -1,0 +1,22 @@
+/* Task.css */
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--task-background);
+    border: 1px solid var(--task-border);
+  }
+  
+  .task button {
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task button:hover {
+    background-color: var(--button-hover);
+  }
+  

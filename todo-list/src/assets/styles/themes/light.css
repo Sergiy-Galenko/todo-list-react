@@ -1,0 +1,15 @@
+/* light.css */
+
+:root {
+  --background-color: #f0f0f0;
+  --text-color: #333;
+  --header-background: #282c34;
+  --header-text: white;
+  --footer-background: #282c34;
+  --footer-text: white;
+  --button-background: #61dafb;
+  --button-text: #000;
+  --button-hover: #21a1f1;
+  --task-background: white;
+  --task-border: #ccc;
+}

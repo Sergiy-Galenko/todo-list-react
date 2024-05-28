@@ -1,0 +1,75 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .header {
+    background-color: var(--header-background);
+    padding: 20px;
+    font-size: 2rem;
+    color: var(--header-text);
+  }
+  
+  .footer {
+    background-color: var(--footer-background);
+    padding: 10px;
+    color: var(--footer-text);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .add-task-form {
+    margin: 20px 0;
+  }
+  
+  .add-task-form input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .add-task-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-task-form button:hover {
+    background-color: var(--button-hover);
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--task-background);
+    border: 1px solid var(--task-border);
+  }
+  
+  .task button {
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task button:hover {
+    background-color: var(--button-hover);
+  }
+  
