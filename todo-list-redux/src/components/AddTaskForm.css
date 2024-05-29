@@ -1,0 +1,25 @@
+/* AddTaskForm.css */
+
+.add-task-form {
+    margin: 20px 0;
+  }
+  
+  .add-task-form input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .add-task-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-task-form button:hover {
+    background-color: var(--button-hover);
+  }
+  
