@@ -16,5 +16,4 @@ const App = () => {
     </TaskProvider>
   );
 };
-
 export default App;
